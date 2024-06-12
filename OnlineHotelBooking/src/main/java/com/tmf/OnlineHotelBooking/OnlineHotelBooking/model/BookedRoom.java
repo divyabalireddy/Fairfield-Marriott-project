@@ -2,6 +2,7 @@ package com.tmf.OnlineHotelBooking.OnlineHotelBooking.model;
 
 import java.time.LocalDate;
 
+
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -66,6 +67,7 @@ public class BookedRoom {
 		super();
 		this.bookingConfirmationCode = bookingConfirmationCode;
 	}
-	
 }
+
+
 
